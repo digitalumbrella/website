@@ -1,0 +1,460 @@
+h1 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: 'PT Serif', serif;
+  font-size: 30px;
+  line-height: 44px;
+  font-weight: 400;
+}
+
+a {
+  color: #9d8aff;
+  text-decoration: underline;
+}
+
+.section {
+  position: relative;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  min-width: 100vw;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.section._2 {
+  height: 100vh;
+  min-height: 100vh;
+}
+
+.section._2.design-marketing {
+  display: none;
+}
+
+.card {
+  position: absolute;
+  width: 250px;
+  height: 400px;
+  border-radius: 10px;
+  background-image: url('../images/trevor-business-cards-du.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  box-shadow: 0 1px 8px 0 rgba(26, 0, 1, 0.3);
+  -webkit-transform: rotate(-2deg);
+  -ms-transform: rotate(-2deg);
+  transform: rotate(-2deg);
+}
+
+.card.bottom {
+  background-image: url('../images/amir-business-card-du.png');
+}
+
+.card.top {
+  background-image: url('../images/digital-umbrella-card.png');
+}
+
+.card.lower {
+  background-image: url('../images/white-card-background.png');
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.card-wrap {
+  position: relative;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50vw;
+  height: 50vh;
+  margin-top: 60px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.card-wrap.lower {
+  width: 100vw;
+  margin-top: 40px;
+}
+
+.description-text {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 30vw;
+  margin-top: 30px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.text-block {
+  text-align: center;
+}
+
+.corner-text {
+  position: relative;
+  left: 0%;
+  top: auto;
+  right: auto;
+  bottom: 0%;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.corner-text.right {
+  left: auto;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+}
+
+.fixed-text {
+  position: absolute;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.heading {
+  margin-top: 50px;
+}
+
+.heading.top {
+  width: 500px;
+  margin-top: 60px;
+  text-align: center;
+}
+
+.heading.top.subtitle {
+  width: 400px;
+  margin-top: 0px;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.heading.top.bottom-one {
+  margin-top: 0px;
+  margin-bottom: -30px;
+}
+
+.heading.middle {
+  font-size: 120px;
+  line-height: 120px;
+}
+
+.heading.middle-2 {
+  display: block;
+  width: 400px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+  text-align: center;
+}
+
+.lottie-animation {
+  width: 500px;
+  margin-top: 20px;
+}
+
+.lottie-animation-2 {
+  width: 500px;
+  margin-top: 20px;
+  color: red;
+}
+
+.text-field {
+  margin-top: 22px;
+  margin-bottom: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 0px solid transparent;
+  border-radius: 10px;
+  background-color: transparent;
+  -webkit-transform: scale3d(1, 1, 1.3);
+  transform: scale3d(1, 1, 1.3);
+  font-family: Avenirnextltpro, sans-serif;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 5px;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.text-field:active {
+  -webkit-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+}
+
+.text-field-2 {
+  margin-top: -19px;
+  margin-bottom: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 0px solid transparent;
+  border-radius: 10px;
+  background-color: transparent;
+  font-family: Avenirnextltpro, sans-serif;
+  font-size: 14px;
+  text-align: center;
+}
+
+.form-block {
+  width: 400px;
+  -webkit-transform: rotateX(0deg) rotateY(17deg) rotateZ(0deg);
+  transform: rotateX(0deg) rotateY(17deg) rotateZ(0deg);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.submit-button {
+  position: absolute;
+  bottom: -200px;
+  width: 400px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  background-color: #333;
+  background-image: url('../images/button-background.png');
+  background-position: 0px 0px;
+  background-size: 125px;
+  box-shadow: 0 0 10px -3px #000;
+  font-family: 'PT Serif', serif;
+  font-size: 30px;
+}
+
+@media (max-width: 991px) {
+  .description-text {
+    max-width: 50vw;
+  }
+  .heading.middle-2 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .card {
+    width: 187.5px;
+    height: 300px;
+  }
+  .card.top {
+    width: 187.5px;
+    height: 300px;
+  }
+  .heading {
+    font-size: 24px;
+  }
+  .heading.middle {
+    font-size: 80px;
+    line-height: 80px;
+  }
+  .heading.middle-2 {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .text-field {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 18px;
+  }
+  .text-field-2 {
+    margin-top: -17px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 12px;
+  }
+  .submit-button {
+    left: 40px;
+    width: 75%;
+    font-size: 24px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 479px) {
+  .section {
+    overflow: hidden;
+  }
+  .section._2 {
+    min-height: 100vh;
+    margin-top: -75px;
+  }
+  .card {
+    width: 145px;
+    height: 250px;
+  }
+  .card.top {
+    width: 145px;
+    height: 250px;
+  }
+  .card.lower {
+    z-index: -1;
+    width: 150px;
+    height: 275px;
+  }
+  .card-wrap {
+    margin-top: 0px;
+  }
+  .card-wrap.lower {
+    margin-top: 0px;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
+  .description-text {
+    max-width: 80vw;
+  }
+  .heading {
+    margin-top: 19px;
+    font-size: 18px;
+  }
+  .heading.top {
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .heading.top._2 {
+    bottom: -18px;
+    line-height: 20px;
+  }
+  .heading.top.subtitle {
+    width: 250px;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+  }
+  .heading.top.bottom-one {
+    width: 300px;
+    margin-bottom: -40px;
+    font-size: 24px;
+  }
+  .heading.middle {
+    margin-top: 0px;
+    font-size: 50px;
+    line-height: 50px;
+  }
+  .lottie-animation-2 {
+    width: 300px;
+  }
+  .text-field {
+    position: relative;
+    top: 0px;
+    z-index: 1;
+    overflow: visible;
+    width: 100vw;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  .text-field-2 {
+    position: relative;
+    top: 0px;
+    z-index: 1;
+    overflow: visible;
+    width: 100vw;
+    margin-top: -13px;
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    font-size: 18px;
+  }
+  .form-block {
+    position: relative;
+    top: 23px;
+    z-index: 1;
+    width: auto;
+    -webkit-box-ordinal-group: 0;
+    -webkit-order: -1;
+    -ms-flex-order: -1;
+    order: -1;
+    text-align: center;
+  }
+  .submit-button {
+    position: relative;
+    left: auto;
+    bottom: -100px;
+    width: 250px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+  }
+  .form {
+    width: 100vw;
+  }
+  .body {
+    overflow: visible;
+  }
+  .success-message {
+    margin-top: -20px;
+    background-color: transparent;
+    font-family: Avenirnextltpro, sans-serif;
+    font-size: 10px;
+  }
+  .text-block-2 {
+    text-transform: none;
+  }
+}
+
+@font-face {
+  font-family: 'Avenirnextltpro';
+  src: url('../fonts/AvenirNextLTPro-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
